@@ -1,0 +1,181 @@
+header {
+margin-top: 20px;
+width: 100%;
+text-align: center;
+
+}
+
+#Bienvenido h2{
+display: block;
+background-color:#212E51;
+margin:0 20% 2% 20%;
+color: white;
+line-height: 4vw;
+font-size: 3vw;
+font-weight: 800;
+height: 9vw;
+
+
+}
+
+.menu2 {
+position: relative;
+display: inline-flex;
+justify-content: space-around;
+text-align: center;
+width: 80%;
+padding:5vw;
+margin:0% 10% 5% 10%;
+background-color:  #fffffe;
+z-index: 1;
+}
+
+#segundo h1 {
+	position: relative;
+	font-size: 3vw;
+	color: black;
+	font-weight: 800;
+	z-index: 2;
+	width: 100%;
+	top: 5vw;
+	margin: auto;
+	text-align: center;
+}
+
+
+.menu2 h2{
+background-color: #fffffe;
+color: black;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+
+.menu2 img {
+	width: 80%;
+}
+
+footer {
+background-color: white;
+width: 80%;
+text-align: center;
+margin: auto;
+}
+
+@media (max-width:800px) {
+    footer img{
+        width: 59%;
+        }
+}
+
+.menu1 {
+display: block;
+position: relative;
+line-height: 5vw;
+text-align: center;
+margin: 4% 8%;
+padding-top: 2vw;
+}
+
+#seccion2 {
+	display: none;
+}
+
+
+#efecto {
+	position: absolute;
+    background: rgba(0,0,0,0.9);
+    height: 120%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: all 0.1s;
+
+		   }
+
+#efecto h1 {
+    text-align: center;
+    font-size: 5vw;
+    color: #fff;
+    margin: 15vw 0 0;
+    padding: 0;
+    line-height: 1vw;
+}
+
+#efecto h3 {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 10vw;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+}
+
+#piedra, #papel, #tijera {
+    width: 80%;
+    height: 80%;
+    border-radius:20%;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0;
+    display:inline-block;
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#piedra:hover, #papel:hover, #tijera:hover{
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+/*prueba de los numero como temporizador*/
+
+
+
+.figuraCPU {
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+
+#temporizador {
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: all 0.1s;
+
+}
+
+
+
+#temporizador #n3 {
+	width: 20%;
+	position: absolute;
+	margin: 20vw 40vw;
+
+}
+
+#temporizador #n2 {
+	width: 20%;
+	position: absolute;
+	margin: 20vw 40vw;
+
+}
+
+#temporizador #n1 {
+	width: 20%;
+	position: absolute;
+	margin: 20vw 40vw;
+
+}

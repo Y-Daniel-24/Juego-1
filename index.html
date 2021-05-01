@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="recursos/css/myStyle.css">
+	<link rel="stylesheet" type="text/css" href="recursos/css/reset.css">
+	<script type="text/javascript" src="recursos/js/script.js"></script>
+	<meta charset="utf-8">
+	<!--<meta name="description" content="Los meta tags de HTML codifican información para ser interpretada por el navegador y los buscadores. ¿Sabes cuáles son imprescindibles?"/>-->
+	<!--<meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>-->
+	<!--<meta name="author" content="Nombre del autor" />-->
+	<meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<!-- <link rel="shorcut icon" type="imgage/x-icon" href="ubicacion de la imagen"> -->
+	<title>Piedra Papel o Tijera</title>
+</head>
+<body>
+
+	<header>
+		<div id="Bienvenido">	
+			<h2>Bienvenido al juego mas Famoso y Entrenido<br>
+			PIEDRA,PAPEL O TIJERA</h2>
+		</div>
+		
+	</header>
+
+	<div id="seccion1">
+		<nav class="menu1">
+			<h1>JUEGA CON LA MAQUINA</h1>
+			<button type="button" onclick="empezarjugar()">EMPEZAR</button>
+		</nav>
+	</div>
+
+	<div id="seccion2">
+
+		<header id="segundo">
+			<h1>Elije tu jugada</h1>
+		</header>
+		
+		<nav class="menu2"> 
+			<div onclick="usuario('0')" id="piedra">
+				<img src="recursos/img/Imagen3.png"  >
+				<h2>Piedra</h2>
+			</div>
+			<div onclick="usuario('1')" id="papel">
+				<img src="recursos/img/Imagen2.png" >
+				<h2>Papel</h2>
+			</div>
+			<div onclick="usuario('2')" id="tijera">
+				<img src="recursos/img/Imagen1.png" >
+				<h2>Tijera</h2>
+			</div>
+
+		</nav>
+
+			<div id="temporizador">
+				<img src="recursos/img/1.png" id="n1">
+				<img src="recursos/img/2.png" id="n2">
+				<img src="recursos/img/3.png" id="n3">
+			</div>
+
+		<div id="efecto" onclick="ganador()"></div>
+		
+
+	</div>
+
+	
+
+	<footer>
+		<img src="recursos/img/prueba1.png">
+	</footer>
+
+
+</body>
+</html>
